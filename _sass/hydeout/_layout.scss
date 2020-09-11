@@ -37,9 +37,11 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: 'Abril Fatface', serif;
+    font-family: serif;
+    // font-family: 'Cutive', serif;
+    // font-family: 'Libre Baskerville', serif;
     font-size: $large-font-size;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: $heading-spacing;
     margin-top: 0;
   }
@@ -74,7 +76,8 @@ body {
 #sidebar {
   header ~ *,
   header ~ nav,
-  p.lead {
+  p.lead,
+  .profile_image {
     display: none;
   }
 }
@@ -186,7 +189,8 @@ body {
     }
 
     p.lead,
-    header ~ * {
+    header ~ *,
+    .profile_image {
       display: block;
     }
 

@@ -1,10 +1,9 @@
 <div id="sidebar">
   <header>
+      <img class="profile_image" src="{{site.baseurl}}/assets/siusing_small.jpg " alt="siusing">
+      
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ "/" | relative_url }}">
-        {% unless page.url == "/" %}
-          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
-        {% endunless %}
         {{ site.title }}
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>

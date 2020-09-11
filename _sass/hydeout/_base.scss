@@ -107,3 +107,10 @@ input[type='submit'] {
     color: #fff;
   }
 }
+
+.profile_image{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid $body-bg;
+    // margin: 1em auto;
+}
