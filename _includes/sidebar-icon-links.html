@@ -1,37 +1,26 @@
 <nav id="sidebar-icon-links">
-    <a id="github-link"
-       class="icon" title="Github" aria-label="Github Project"
-       href="https://github.com/siu-sing/">
-      {% include svg/github.svg %}
+    <a id="github-link" class="icon" title="Github" aria-label="Github Project" href="https://github.com/siu-sing/" target="_blank">
+        <i class="fab fa-github"></i>
     </a>
 
-  <a id="instagram-link"
-     class="icon" title="@siu_sing" aria-label="" style="margin-top:4px"
-     href="https://www.instagram.com/siu_sing/">
-    {% include svg/instagram.svg %}
-  </a>
-
-<a id="linkedin-link"
-class="icon" title="siusing" aria-label="" 
-href="https://www.linkedin.com/in/siusing/">
-{% include svg/linkedin.svg %}
-</a>
-
-  <a id="tags-link"
-      class="icon{% if page.url == '/tags' %} active{% endif %}"
-      title="Tags" aria-label="Tags"
-      href="{{ tags_page.url | relative_url }}">
-    {% include svg/tags.svg %}
-  </a>
-
-  {% if search_page %}
-    <a id="search-link"
-       class="icon{% if page.url == '/search' %} active{% endif %}"
-       title="Search" aria-label="Search"
-       href="{{ search_page.url | relative_url }}">
-      {% include svg/search.svg %}
+    <a id="linkedin-link" class="icon" title="siusing" aria-label="" href="https://www.linkedin.com/in/siusing/" target="_blank">
+        <i class="fab fa-linkedin"></i>
     </a>
-  {% endif %}
+    <a id="instagram-link" class="icon" title="@siu_sing" aria-label="" href="https://www.instagram.com/siu_sing/" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
 
-  {% include custom-icon-links.html %}
+    <a id="tags-link" class="icon{% if page.url == '/tags' %} active{% endif %}" title="Tags" aria-label="Tags"
+        href="{{ tags_page.url | relative_url }}" target="_blank">
+        <i class="fas fa-tags"></i>
+    </a>
+
+    {% if search_page %}
+    <a id="search-link" class="icon{% if page.url == '/search' %} active{% endif %}" title="Search" aria-label="Search"
+        href="{{ search_page.url | relative_url }}">
+        {% include svg/search.svg %}
+    </a>
+    {% endif %}
+
+    {% include custom-icon-links.html %}
 </nav>
