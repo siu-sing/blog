@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Classic Snake with JavaScript"
+title: "Classic Snake with JavaScript, HTML and CSS"
 excerpt_separator:  <!--more-->
+categories: 
+    - Projects
 ---
 
 The first project of SEI-23 involves us putting what we've learnt in the first 3 weeks of the course to use in a simple game.
