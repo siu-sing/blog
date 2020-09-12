@@ -37,11 +37,12 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: serif;
+    // font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     // font-family: 'Cutive', serif;
     // font-family: 'Libre Baskerville', serif;
     font-size: $large-font-size;
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: $heading-spacing;
     margin-top: 0;
   }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DSTNY: Social Polling and Voting App with Ruby on Rails"
+title: "DSTNY"
 excerpt_separator:  <!--more-->
 categories: 
     - Projects
@@ -11,4 +11,4 @@ tags:
 ---
 
 
-# Project 3
+### Social Polling App with Ruby on Rails

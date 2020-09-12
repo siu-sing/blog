@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PB&Jot: Personal Best Tracking app with MERN stack"
+title: "PB&Jot"
 excerpt_separator:  <!--more-->
 categories: 
     - Projects
@@ -13,4 +13,4 @@ tags:
 ---
 
 
-# Project 4
+### Personal Best Tracking app with MERN stack

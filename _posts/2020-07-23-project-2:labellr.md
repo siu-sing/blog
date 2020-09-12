@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Labellr: Crowdsourced Data Labelling Platform for AI/ML Training Data"
+title: "Labellr"
 excerpt_separator:  <!--more-->
 categories: 
     - Projects
@@ -11,4 +11,4 @@ tags:
 ---
 
 
-# Project 2
+### Crowdsourced Data Labelling Platform for AI/ML Training Data

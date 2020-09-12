@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Classic Snake with JavaScript, HTML and CSS"
+title: "Snake"
 excerpt_separator:  <!--more-->
 categories: 
     - Projects
