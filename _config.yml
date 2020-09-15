@@ -18,6 +18,7 @@ author:
   name:           'Siu Sing'
   url:            https://twitter.com/
 
+gems: [jekyll-paginate]
 paginate:         5
 paginate_path:    '/posts/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
@@ -58,6 +59,6 @@ google_analytics: UA-100461102-1
 
 # Used for Hydeout's own Github page. Feel free to remove for your
 # own fork.
-hydeout:
-  version:          4.1.0
-  repo:             https://github.com/fongandrew/hydeout
+# hydeout:
+#   version:          4.1.0
+#   repo:             https://github.com/fongandrew/hydeout

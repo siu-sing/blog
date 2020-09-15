@@ -6,6 +6,13 @@ categories:
     - Projects
 ---
 
+#### Classic Snake game with an added AI Snake player
+Build with JavaScript, HTML and CSS.
+
+<img class="app__logo" src="{{site.baseurl}}/assets/snake_thumbnail.png " alt="snake_thumbnail" />
+
+[GitHub Repo](https://github.com/siu-sing/snake) \| [Live Demo](https://github.com/siu-sing/snake)
+
 The first project of SEI-23 involves us putting what we've learnt in the first 3 weeks of the course to use in a simple game.
 
 Personally, I definitely lean towards programming work that requires more algorithmic thinking, breaking down bigger problems into logical chunks and building the solutions back up to create "magic".
