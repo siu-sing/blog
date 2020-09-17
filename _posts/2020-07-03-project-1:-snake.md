@@ -4,6 +4,13 @@ title: "Snake"
 excerpt_separator:  <!--more-->
 categories: 
     - Projects
+
+tags:
+    - JavaScript
+    - HTML
+    - CSS
+
+slug: snake
 ---
 
 #### Classic Snake game with an added AI Snake player

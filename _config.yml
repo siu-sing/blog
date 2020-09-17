@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            Siu Sing
-tagline:          'Blog'
-description:      'Coding, CrossFit, Coffee.'
+tagline:          ''
+description:      ''
 url:              siu-sing.github.io
 baseurl:          '/blog'
                   # the optional subpath of your site, e.g. "/blog"

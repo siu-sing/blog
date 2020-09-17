@@ -8,6 +8,7 @@ tags:
     - Node.js
     - Express
     - MongoDB
+slug: labellr
 ---
 
 

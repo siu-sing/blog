@@ -2,10 +2,126 @@
 layout: default
 ---
 
+<div class="content leading__content">
+    <div class="leading__text">
+        <h1>
+            <p class="title__text">Hi, I'm Siu Sing.</p>
+        </h1>
+        <h1>
+            <p class="title__text">A Software Engineer with a background in Data Analytics.</p>
+        </h1>
+        <h2>
+            I take pride in developing scalable, automated and resilient tools and processes to solve operational
+            inefficiencies.
+        </h2>
+    </div>
 
-<div class="content">
+    <!-- <hr /> -->
 
+    <h1 class="underline__text">Some Things I've Built</h1>
 
-  HOME PAGE
-  
+    <div class="container__portfolio">
+        <div class="project__content">
+            {% assign thepost = site.posts | where:"slug","labellr" %}
+            {% assign post = thepost[0] %}
+
+            <div>
+                <h2 class="post-title">
+                    <a href="{{ post.url | relative_url }}">
+                        {{ post.title }}
+                    </a>
+                </h2>
+                <p>An online platform for data scientists to crowdsource labels for their AI/ML training data. Supports both sentiment and topic labelling.
+                </p>
+                <a id="github-link" class="icon" title="Github" aria-label="Github Project"
+                    href="https://github.com/siu-sing/labellr" target="_blank">
+                    <i class="fab fa-github"></i> GitHub Repo
+                </a>
+                &nbsp;|&nbsp;
+                <a id="github-link" class="icon" title="LiveDemo" aria-label="Live Demo"
+                    href="https://labellr.herokuapp.com" target="_blank">
+                    <i class="fas fa-desktop"></i> Live Demo
+                </a>
+                {% include post-tags.html post=post %}
+            </div>
+        </div>
+        <div class="project__screenshots">
+            <img class="app__screenshots__desktop" src="{{site.baseurl}}/assets/labellr/labellrLanding.png "
+                alt="labellrLanding" />
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="container__portfolio">
+        <div class="project__content">
+            {% assign thepost = site.posts | where:"slug","pbandjot" %}
+            {% assign post = thepost[0] %}
+
+            <div>
+                <h2 class="post-title">
+                    <a href="{{ post.url | relative_url }}">
+                        {{ post.title }}
+                    </a>
+                </h2>
+                <p>Record your weightlifting personal bests and workout completion times for CrossFit style workouts.
+                    Designed for mobile.
+                </p>
+                <a id="github-link" class="icon" title="Github" aria-label="Github Project"
+                    href="https://github.com/siu-sing/pbandjot" target="_blank">
+                    <i class="fab fa-github"></i> GitHub Repo
+                </a>
+                &nbsp;|&nbsp;
+                <a id="github-link" class="icon" title="LiveDemo" aria-label="Live Demo"
+                    href="https://pbandjot.herokuapp.com" target="_blank">
+                    <i class="fas fa-mobile-alt"></i> Live Demo
+                </a>
+                {% include post-tags.html post=post %}
+            </div>
+        </div>
+        <div class="project__screenshots">
+            <img class="app__screenshots__mobile" src="{{site.baseurl}}/assets/pbandjot/pbjLanding.png "
+                alt="pbjLanding" />
+            <img class="app__screenshots__mobile" src="{{site.baseurl}}/assets/pbandjot/pbjHome.png " alt="pbjHome" />
+            <img class="app__screenshots__mobile" src="{{site.baseurl}}/assets/pbandjot/pbjCalc.png " alt="pbjCalc" />
+            <img class="app__screenshots__mobile" src="{{site.baseurl}}/assets/pbandjot/pbjRecord.png "
+                alt="pbjRecord" />
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="container__portfolio">
+        <div class="project__content">
+            {% assign thepost = site.posts | where:"slug","snake" %}
+            {% assign post = thepost[0] %}
+
+            <div>
+                <h2 class="post-title">
+                    <a href="{{ post.url | relative_url }}">
+                        {{ post.title }}
+                    </a>
+                </h2>
+                <p>Classic Snake game with an added AI Snake player.
+                </p>
+                <a id="github-link" class="icon" title="Github" aria-label="Github Project"
+                    href="https://github.com/siu-sing/snake" target="_blank">
+                    <i class="fab fa-github"></i> GitHub Repo
+                </a>
+                &nbsp;|&nbsp;
+                <a id="github-link" class="icon" title="LiveDemo" aria-label="Live Demo"
+                    href="https://siu-sing.github.io/snake/" target="_blank">
+                    <i class="fas fa-desktop"></i> Try it out
+                </a>
+                {% include post-tags.html post=post %}
+            </div>
+        </div>
+        <div class="project__screenshots">
+            <img class="app__screenshots" src="{{site.baseurl}}/assets/snake/classic.gif"
+                alt="pbjLanding" />
+            <img class="app__screenshots" src="{{site.baseurl}}/assets/snake/battle.gif " alt="pbjHome" />
+
+        </div>
+    </div>
+
 </div>

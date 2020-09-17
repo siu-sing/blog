@@ -10,6 +10,7 @@ tags:
     - Node.js
     - MongoDB
     - Express
+slug: pbandjot
 ---
 
 #### Personal Best Tracking app build with MERN stack

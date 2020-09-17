@@ -233,10 +233,14 @@ body {
         }
       }
     }
-
-    > * {
+// only apply max-width to content outside of the leading content page
+    > :not(.leading__content) {
       max-width: 38rem;
       padding: 0;
+    }
+    > .leading__content {
+        margin: 20px;
+        // text-align: center;
     }
   }
 }
