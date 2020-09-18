@@ -73,7 +73,7 @@ Even though there are pre-labelled data readily available online, these labels m
 
 Labellr aims to provide a platform for crowdsourcing labellers to not only help label training data, but allow for users/data scientists to select different demographics to help label the data in specific contexts.
 
-I was excited about this since it was a data-related problem that I have encountered and attemped to solve (hackily) before. 
+I was excited about this since it was a data-related problem that I have encountered and attempted to solve (hackily) before. 
 
 It was also a good opportunity to design a system and data model for a typical crowdsourcing platform which could transfer easily to other types of similar business problems.
 
@@ -116,24 +116,24 @@ During the labelling process, the text is shown one at a time (instead of a list
 Labellers can exit the workflow anytime and return to it later. Their progress will be automatically saved.
 
 #### Labelling Results
-- Labelling results
-    - Overall statistics
-    - Labelling statistics
-    - Download of labelling results
+Clients are able to see updated stats about the workflow they created. Information about the number of labellers, number of labelled data points and number of useful data labels is shown on the workflow details page.
 
-Data Model
+Clients can also download the raw results of the labelling as a csv at any time. Client (or Admin) can close the workflow and prevent any more labels once the results are satisfactory.
 
-Screen Captures
+### Project Retrospective
 
-Post Mortem Thoughts
-Sprint Planning
-Design
-- Relational DB instead of Document Store
-- More responsive front end
-Data Labelling Strategy
-- More intelligent way of selecting data points for labelling (only those with insufficient labels, or not useful labels)
+I was pretty satisfied with the final product given the original objective was to have an MVP within 5 days that solves a simplified version of the data annotation problem. 
 
-Additional Work
-- Image labelling
-- APIs for uploading, downloading data, connecting to DBs
+What definitely helped was that I worked in clearly defined sprints (4 to 5 hours per sprint), with specific features and user stories to work on for each sprint. During development, inevitably, new ideas/experiments for features would pop up in my head, but in order to keep myself focused, I threw these ideas into the backlog and only focused on my current sprint. I also ensured that the end of the each sprint resulted in a mini-MVP that would be minimally functioning and have been manually tested.
+
+On hindsight, there were definitely some things that could be further improved. For instance, using a Relational DB such as postgreSQL would fit the data model better since there were clear and limited relationships between each data entity in the application. Queries to the database especially regarding labelling stats would have been more intuitive. 
+
+The strategy for selecting text content to display to the labeller could definitely have been further improved. One way is to first randomize the order for each labeller and only select data points do not yet have a decisive label. Statistical adjusments should also be made based on the individual labelling behaviour - i.e. Specifcally for sentiment labelling, a baseline should be determined for each user and have their labels adjusted relative to that baseline.
+
+### Further Work
+Given more time, these are some of the additional features that I would prioritize.
+- Allow clients to specify demographic requirements of labellers (e.g. Age, Gender, Country of Residence/Origin)
+- Allow labelling and annotation of images
+- APIs for clients to upload/download the relevant datasets and connect to DBs
+- Gamify the labelling process to further motivate the labeller
 
