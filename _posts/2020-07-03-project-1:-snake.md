@@ -18,7 +18,15 @@ Build with JavaScript, HTML and CSS.
 
 <img class="app__logo" src="{{site.baseurl}}/assets/snake_thumbnail.png " alt="snake_thumbnail" />
 
-[GitHub Repo](https://github.com/siu-sing/snake) \| [Live Demo](https://github.com/siu-sing/snake)
+<a id="github-link" class="icon" title="Github" aria-label="Github Project"
+                    href="https://github.com/siu-sing/snake" target="_blank">
+                    <i class="fab fa-github"></i> GitHub Repo
+                </a>
+                &nbsp;|&nbsp;
+                <a id="github-link" class="icon" title="LiveDemo" aria-label="Live Demo"
+                    href="https://siu-sing.github.io/snake/" target="_blank">
+                    <i class="fas fa-desktop"></i> Try it out
+                </a>
 
 The first project of SEI-23 involves us putting what we've learnt in the first 3 weeks of the course to use in a simple game.
 
@@ -30,13 +38,8 @@ I would imagine Snake, Tetris and Minesweeper would require some kind of intense
 
 <!--more-->
 
-- Game: [Snake](https://siu-sing.github.io/snake/)
-- Code: [GitHub Snake Repo](https://github.com/siu-sing/snake)
-
 ## The Plan
-So originally the idea was to just rebuild the classic snake game on html/css/js. But due to some unforeseen drama in my class, we had an additional week (total 2) to work on the project (the original timeline was < 1 week). 
-
-After completing the basic snake in the first week and consulting with the TAs, I decided I had time to embark on a second version - Battle Snakes.
+So originally the idea was to just rebuild the classic snake game on html/css/js. But due to some unforeseen circumstances in my class, we had an additional week (total 2) to work on the project (the original timeline was < 1 week). 
 
 Turns out there are a number of multiplayer snake games out there (check out [slither.io](http://slither.io/)). I decided to add multiplayer snakes to the game, but instead of human players I attempted to build an AI Snake.
 
@@ -130,11 +133,7 @@ The resulting movement would look something like this:
 <img src="{{site.baseurl}}/assets/autoMove.gif" width="350"> 
 *autoMove() function*
 
-### Other non-trivial functions (WIP)
-- Generating random fruit
-- Touch display
-
-## Future Work (?)
+## Future Work
 - Improve AI Snake capabilities
     - More defensive and able to avoid player snake
     - More offensive and able to trap player snake
