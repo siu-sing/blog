@@ -28,6 +28,8 @@ Shortlisted a few games: Snake, Tetris, Solitaire, Minesweeper, GuitarHero(ish),
 
 I would imagine Snake, Tetris and Minesweeper would require some kind of intense math behind the scenes so they were pretty attractive as project 1. Ultimately for nostalgia, I decided on Snake since I used to play that a lot on my first Nokia 3310, and I would actually want to play it now.
 
+<!--more-->
+
 - Game: [Snake](https://siu-sing.github.io/snake/)
 - Code: [GitHub Snake Repo](https://github.com/siu-sing/snake)
 
